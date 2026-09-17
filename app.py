@@ -3,10 +3,10 @@ from pathlib import Path
 
 import streamlit as st
 
-from document_processor import extract_pdf_chunks
-from llm import generate_answer
-from retriever import retrieve
-from vector_store import VectorStore
+from src.document_processor import extract_pdf_chunks
+from src.llm import generate_answer
+from src.retriever import retrieve
+from src.vector_store import VectorStore
 
 
 st.set_page_config(
